@@ -1,0 +1,6 @@
+version: '2'
+services:
+  nginx:
+    image: nginx:1.11.5 
+    ports:
+      - "80:80"
